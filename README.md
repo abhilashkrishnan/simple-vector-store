@@ -1,2 +1,3 @@
-# simple-vector-store
-A Simple Vector Store from Scratch
+# Simple Vector Store
+
+### A Simple Vector Store from Scratch
