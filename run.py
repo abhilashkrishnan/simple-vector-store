@@ -31,7 +31,7 @@ def generate_answer(prompt):
 
     return response["message"]["content"]
 
-with open("docs/spacebattle.txt") as f:
+with open("spacebattle.txt") as f:
     content = f.read()
     ingested = store.from_docs(docs=content.split("\n\n"))
     print(ingested)
